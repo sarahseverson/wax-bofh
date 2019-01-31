@@ -3,8 +3,8 @@ layout: wax/page
 title: What is Wax?
 permalink: /about/
 banner:
-  collection: qatar
-  pid: obj6
+  collection: bofh
+  pid: ms103
   y: 50%
 ---
 

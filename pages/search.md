@@ -3,8 +3,8 @@ layout: wax/page
 title: Search the Collection
 permalink: /search/
 banner:
-  collection: qatar
-  pid: obj8
+  collection: bohf
+  pid: ms102
   y: 30%
 ---
 

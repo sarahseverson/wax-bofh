@@ -3,8 +3,8 @@ layout: wax/page
 title: Credits
 permalink: '/credits/'
 banner:
-  collection: qatar
-  pid: obj4
+  collection: bofh
+  pid: ms96
   y: 50%
 ---
 
