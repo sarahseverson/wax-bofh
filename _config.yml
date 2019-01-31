@@ -94,7 +94,7 @@ menu:
     sub:
       - label: 'Wax'
         link: '/about/'
-      - label: 'Documentation'
+      - label: 'Documentation on Wax'
         link: 'https://minicomp.github.io/wiki/#/wax/'
       - label: 'Credits'
         link: '/credits/'
@@ -126,6 +126,8 @@ footer:
       link: '/credits'
     - label: 'Contact'
       link: 'https://gitter.im/minicomp/wax/'
+    - label: 'Original Digital Collection'
+      link: 'http://digital.library.mcgill.ca/horae'
   logos:
     - img: '/assets/logo.png'
     - img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2r40VYrf2Q5jkJiPGjPkl7xZoHJliwgVtHCLVXmAsRKw0ZudD'
