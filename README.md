@@ -1,4 +1,6 @@
-# minicomp/wax 🐝
+This is a sandbox site for me to learn more about Wax. Any of the images and texts are either from the original demo site or http://digital.library.mcgill.ca/horae
+
+# Learn more about minicomp/wax 🐝
 
 [![Build Status](https://travis-ci.org/mnyrop/wax.svg?branch=master)](https://travis-ci.org/mnyrop/wax) [![Join the chat at https://gitter.im/minicomp/wax](https://badges.gitter.im/minicomp/wax.svg)](https://gitter.im/minicomp/wax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
