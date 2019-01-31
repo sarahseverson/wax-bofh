@@ -20,8 +20,8 @@
 
 title:            'McGill Library Collection of Books of Hours'
 description:      'McGill Library Collection of Books of Hours'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
+url:              'https://sarahseverson.github.io/'
+baseurl:          '/wax-bofh-demo'
 copyright:        ''
 
 # ---------------------------------------------------------------
