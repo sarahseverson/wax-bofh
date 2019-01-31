@@ -132,3 +132,5 @@ footer:
       link: 'https://library.columbia.edu'
 
 # FIN
+
+theme: jekyll-theme-minimal
