@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/ms105_0",
+  "protocol": "http://iiif.io/api/image",
+  "width": 3664,
+  "height": 4040,
+  "sizes": [
+    {
+      "width": 3664,
+      "height": 4040
+    },
+    {
+      "width": 250,
+      "height": 276
+    },
+    {
+      "width": 250,
+      "height": 276
+    },
+    {
+      "width": 1140,
+      "height": 1257
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

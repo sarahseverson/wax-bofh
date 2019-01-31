@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <head>
+  <link rel='canonical' href='http://localhost:4000/wax/collection/'/>
+  <link rel='icon' type='image/png' href="http://localhost:4000/wax/assets/logo.png">
+
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
+  <meta http-equiv='content-type' content='text/html; charset=utf-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'/>
+
+  <title>
+    McGill Library Collection of Books of Hours | Browse the Collection
+  </title>
+
+  <link rel='stylesheet' href="http://localhost:4000/wax/assets/styles.css"/>
+  <script type='text/javascript' src="http://localhost:4000/wax/assets/js/jquery-3.2.1.min.js"></script>
+  <script type='text/javascript' src="http://localhost:4000/wax/assets/js/wax.js"></script>
+</head>
+
+
+  <body>
+    <time datetime='2019-01-31 09:09'></time>
+    <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
+ <div class='wax-inline-container'>
+    <a class='navbar-brand' href="http://localhost:4000/wax/" title='Home'>
+      <img src="http://localhost:4000/wax/assets/logo.png" width='30' height='30' class='d-inline-block align-top' alt='logo'>
+      McGill Library Collection of Books of Hours
+    </a>
+
+    <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
+
+    <div class='collapse navbar-collapse' id="wax-header-navbar">
+      <ul class='nav navbar-nav ml-auto justify-content-end'>
+        
+          
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='#' id='wax-About-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                About
+              </a>
+              <div class='dropdown-menu' aria-labelledby='wax-About-dropdown'>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/wax/about/'>Wax</a>
+                
+                  <a class='dropdown-item' href='https://minicomp.github.io/wiki/#/wax/'>Documentation</a>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/wax/credits/'>Credits</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='#' id='wax-Exhibits-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                Exhibits
+              </a>
+              <div class='dropdown-menu' aria-labelledby='wax-Exhibits-dropdown'>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/a/'>Local and Remote IIIF Manifests</a>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/b/'>Inline Parallax Image</a>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/c/'>Inline Image References</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/wax/collection/'>Browse</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/wax/search/'>Search</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/wax/reuse/'>Reuse</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+   </div>
+ </nav>
+
+
+    <div id='wax-main'>
+      <div id='wax-content' class='wax-inline-container'>
+        
+
+
+  <h1 class='page-title'>Browse the Collection</h1>
+
+
+<p>This digital collection features Books of Hours in both manuscript and printed form, spanning several centuries from <a href="https://www.mcgill.ca/library/branches/rarebooks">Rare Books and Special Collections</a> at the <a href="https://www.mcgill.ca/library/">McGill Library</a>.</p>
+
+<p>History</p>
+
+<p>Beginning in the 13th century, Books of Hours were the most popular prayer books intended for the laity. Bestsellers until the 16th century, these books of private devotion developed in a variety of ways with both texts and illustrations reflecting regional differences in liturgical practices, languages and artistic styles. People learned to read with Books of Hours. For this reason, they were called primers in English and were often given as wedding presents.</p>
+
+<p>Books of Hours first appeared in Quebec while it was still New France. They were read by the laity and also by the Jesuits themselves, as described in the Relations des jésuites of 1653. The Hospitalières, the nursing sisters of Quebec, frequently requested them from their benefactors in France for the salvation of the patients’ souls. Unfortunately, none of these copies seem to have survived.</p>
+
+<p>In the 19th and 20th centuries, these devotional books found a new vocation, becoming collectibles due to the renewed interest in the Middle Ages and the Renaissance during the Romantic era. Whether complete or fragmentary, Books of Hours now arrived in Quebec through inheritance or purchases in Europe.</p>
+
+<p>A number of Books of Hours were acquired by public institutions in Quebec through private donations as well as under a purchasing policy that encouraged public education. Thus, in the 1920s and 1930s, Gerhard R. Lomer, one of McGill University’s first librarians, launched an innovative project to create a small museum of the book inside the library open to the general public, to present a brief history of manuscript and printed books as well as the iconography through the centuries.</p>
+
+<div id="wax-gallery-qatar-container" class="wax-gallery-container"></div>
+<script type="text/javascript">
+  var container= $('#wax-gallery-qatar-container');
+  container.prepend("<div id='wax-gallery-qatar' class='wax-gallery'></div>");
+  var gallery = $('#wax-gallery-qatar');
+  
+
+  
+    container.prepend('<div id="qatar-facet-buttons" class="facet-buttons"></div>');
+    var buttonDiv = $('#qatar-facet-buttons');
+    var facets = Array.from(new Set([]));
+    buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
+    for (i in facets) {
+      buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
+    }
+    $(document).ready(function(){
+      $(".facet").click(function(){
+        var filterValue = $(this).attr('data-filter');
+        $('.facet').removeClass('active');
+        $(this).addClass('active');
+        if(filterValue == 'all') { $('.all').show('slow'); }
+        else { $('.all').hide('slow'); $(`.${filterValue}`).show('slow'); }
+      });
+    });
+  
+</script>
+
+
+
+      </div>
+
+      <footer id='wax-footer' class='page-footer container-fluid'>
+  <div class='wax-inline-container'>
+    <div class='row'>
+      <!-- column 1-->
+      <div class='col'>
+        <p class='footer-title'>McGill Library Collection of Books of Hours</p>
+        <p class='footer-description'>McGill Library Collection of Books of Hours</p>
+        <p class='footer-copyright'>
+          &copy; <br>
+          Built with <a href='https://github.com/minicomp/wax/'>Minicomp/Wax</a>
+        </p>
+      </div>
+      <!-- column 2-->
+      <div class='col'>
+        <p class='footer-title'>Links</p>
+        <p class='footer-links'>
+          
+            <a href='https://github.com/minicomp/wax'>
+              GitHub
+            </a>
+           / 
+          
+            <a href='http://localhost:4000/wax/credits'>
+              Credits
+            </a>
+           / 
+          
+            <a href='https://gitter.im/minicomp/wax/'>
+              Contact
+            </a>
+          
+          
+        </p>
+        <p class='footer-logos'>
+          
+          
+          <a href="http://localhost:4000/wax/">
+            <img src='http://localhost:4000/wax/assets/logo.png' />
+          </a>
+          
+          
+          <a href="https://library.columbia.edu">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2r40VYrf2Q5jkJiPGjPkl7xZoHJliwgVtHCLVXmAsRKw0ZudD' />
+          </a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+
+  <script type='text/javascript' src='http://localhost:4000/wax/assets/js/bootstrap.min.js'></script>
+  <script type='text/javascript' src='http://localhost:4000/wax/assets/js/popper.min.js'></script>
+</html>

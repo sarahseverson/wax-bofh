@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+  "@type": "oa:Annotation",
+  "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/annotation/ms099_0.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/ms099_0/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/ms099_0",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 3978,
+    "height": 5652
+  },
+  "on": "{{ '' | absolute_url }}/img/derivatives/iiif/canvas/ms099_0.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

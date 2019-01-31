@@ -1,0 +1,49 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/ms103_3",
+  "protocol": "http://iiif.io/api/image",
+  "width": 3832,
+  "height": 5624,
+  "sizes": [
+    {
+      "width": 3832,
+      "height": 5624
+    },
+    {
+      "width": 250,
+      "height": 367
+    },
+    {
+      "width": 250,
+      "height": 367
+    },
+    {
+      "width": 1140,
+      "height": 1673
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

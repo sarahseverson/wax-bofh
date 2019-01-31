@@ -1,0 +1,134 @@
+# ==============================================================
+# WAX CONFIGURATION
+# ==============================================================
+# Jekyll configuration files are written in YAML format.
+# Colons, tabs/spacing, and quotes are meaningful in YAML.
+# It is recommended you look at the following guide to avoid
+# syntax errors in this file:
+# ~> https://learnxinyminutes.com/docs/yaml/
+#
+#
+# Questions ?
+# ~> https://minicomp.github.io/wiki/#/
+# ~> https://gitter.im/minicomp/wax/
+#
+# ---------------------------------------------------------------
+# MAIN SETTINGS
+# ---------------------------------------------------------------
+# Feel free to change these! For more info, refer to:
+# ~> https://jekyllrb.com/docs/configuration/options/
+
+title:            'McGill Library Collection of Books of Hours'
+description:      'McGill Library Collection of Books of Hours'
+url:              'https://minicomp.github.io'
+baseurl:          '/wax'
+copyright:        ''
+
+# ---------------------------------------------------------------
+# BUILD SETTINGS
+# ---------------------------------------------------------------
+# Best not to mess with these unless you know what you're doing!
+
+permalink:        'pretty'
+safe:             true
+exclude:          [Gemfile*, Rakefile, vendor, spec, README.md]
+webrick:
+  headers:
+    'Access-Control-Allow-Origin': '*'
+
+
+# --------------------------------------------------------------
+# COLLECTION SETTINGS
+# --------------------------------------------------------------
+# Wax leverages Jekyll collections for much of its
+# functionality, therefor some of the keys below are from
+# Jekyll while others are Wax-specific.
+# For more info, refer to:
+# ~> https://jekyllrb.com/docs/collections/
+
+collections:
+  exhibits:
+    output: true
+  bofh: # name of collection
+    output: true # makes sure pages are output as html files
+    layout: 'qatar_item' # the layout for the pages to use
+    metadata:
+      source: 'metadata.csv' # path to the metadata file within `_data`
+    images:
+      source: 'raw_images/bofh' # path to the directory of images within `_data`
+
+# --------------------------------------------------------------
+# LUNR SEARCH INDEX SETTINGS
+# --------------------------------------------------------------
+# You can create multiple lunr indexes below (though only one is
+# recommended!) by specifying
+# a `file` to write it to and some `collections` for it to index
+# and running `$ bundle exec rake wax:lunr` .
+# You can optionally generate a default UI by specifying a UI file
+# and running `$ bundle exec rake wax:lunr UI=true`.
+
+lunr_index:
+  - file: 'js/lunr-index.json' # file the index will get written to
+    ui:   'js/lunr-ui.js' # path to the search UI file
+    collections:
+      bofh:
+        content: false # whether or not to index page content
+        fields: # the metadata fields to index
+          - label
+          - _date
+          - location
+          - artist
+          - description
+          - language
+
+
+# --------------------------------------------------------------
+# SITE MENU SETTINGS
+# --------------------------------------------------------------
+# Each menu item needs a `label` (whats shown), and a `link`
+# (where it goes). An item can optionally have a dropdown
+# submenu via `sub`.
+
+menu:
+  - label: 'About'
+    sub:
+      - label: 'Wax'
+        link: '/about/'
+      - label: 'Documentation'
+        link: 'https://minicomp.github.io/wiki/#/wax/'
+      - label: 'Credits'
+        link: '/credits/'
+  - label: 'Exhibits'
+    sub:
+      - label: 'Local and Remote IIIF Manifests'
+        link: '/exhibits/a/'
+      - label: 'Inline Parallax Image'
+        link: '/exhibits/b/'
+      - label: 'Inline Image References'
+        link: '/exhibits/c/'
+  - label: 'Browse'
+    link: '/collection/'
+  - label: 'Search'
+    link: '/search/'
+  - label: 'Reuse'
+    link: '/reuse/'
+
+# --------------------------------------------------------------
+# SITE FOOTER SETTINGS
+# --------------------------------------------------------------
+#
+
+footer:
+  links:
+    - label: 'GitHub'
+      link: 'https://github.com/minicomp/wax'
+    - label: 'Credits'
+      link: '/credits'
+    - label: 'Contact'
+      link: 'https://gitter.im/minicomp/wax/'
+  logos:
+    - img: '/assets/logo.png'
+    - img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2r40VYrf2Q5jkJiPGjPkl7xZoHJliwgVtHCLVXmAsRKw0ZudD'
+      link: 'https://library.columbia.edu'
+
+# FIN
