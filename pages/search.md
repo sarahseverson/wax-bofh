@@ -3,7 +3,7 @@ layout: wax/page
 title: Search the Collection
 permalink: /search/
 banner:
-  collection: bohf
+  collection: bofh
   pid: ms102
   y: 30%
 ---

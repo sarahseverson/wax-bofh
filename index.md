@@ -7,6 +7,7 @@ banner:
   y: 25%
 ---
 
+{% include wax/collection/gallery.html facet_by='type' collection='bofh' %}
 
 <<<<<<< HEAD
 {% include wax-bofh-demo/collection/gallery.html facet_by='type' collection='bofh' %}
