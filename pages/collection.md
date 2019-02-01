@@ -8,7 +8,7 @@ This digital collection features Books of Hours in both manuscript and printed f
 
 This button should show all -> {% include wax/collection/gallery.html collection='qatar' facet_by='object_type' %}
 
-##History
+# History
 
 Beginning in the 13th century, Books of Hours were the most popular prayer books intended for the laity. Bestsellers until the 16th century, these books of private devotion developed in a variety of ways with both texts and illustrations reflecting regional differences in liturgical practices, languages and artistic styles. People learned to read with Books of Hours. For this reason, they were called primers in English and were often given as wedding presents.
 
