@@ -21,7 +21,7 @@
 title:            'McGill Library Collection of Books of Hours'
 description:      'McGill Library Collection of Books of Hours'
 url:              'https://sarahseverson.github.io/'
-baseurl:          '/wax-bofh-demo'
+baseurl:          '/wax-bofh'
 copyright:        ''
 
 # ---------------------------------------------------------------
@@ -29,6 +29,7 @@ copyright:        ''
 # ---------------------------------------------------------------
 # Best not to mess with these unless you know what you're doing!
 
+theme:            wax_theme
 permalink:        'pretty'
 safe:             true
 exclude:          [Gemfile*, Rakefile, vendor, spec, README.md]
