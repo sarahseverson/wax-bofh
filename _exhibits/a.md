@@ -1,12 +1,12 @@
 ---
 layout: wax/exhibit
-title: 'Exhibit A: Local and Remote IIIF Manifests'
+title: 'Exhibit A: Comparing Local and Remote IIIF Manifests in Mirador'
 author: Mihr 'Ali
 publish_date: 2018-11-15
 permalink: /exhibits/a/
 ---
 
-This is an example exhibit. 
+This is an example exhibit that shows how you can compare an image from your digital collection with one from another location. 
 
 In Wax, exhibits are generally essays or curatorial assemblages referencing the site collection. Because Wax uses IIIF, exhibits can even leverage the included viewer [Mirador](http://projectmirador.org) to compare collection items in the site with items _housed at other institutions_. 
 
