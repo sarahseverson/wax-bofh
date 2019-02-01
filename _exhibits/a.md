@@ -1,8 +1,8 @@
 ---
 layout: wax/exhibit
 title: 'Exhibit A: Comparing Local and Remote IIIF Manifests in Mirador'
-author: Mihr 'Ali
-publish_date: 2018-11-15
+author: Sarah S.
+publish_date: 2019-01-31
 permalink: /exhibits/a/
 ---
 
