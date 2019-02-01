@@ -7,7 +7,6 @@ banner:
   y: 25%
 ---
 
-{% include wax/collection/gallery.html facet_by='type' collection='bofh' %}
 
 
 
