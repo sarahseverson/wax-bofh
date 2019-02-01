@@ -8,6 +8,9 @@ banner:
   y: 50%
 ---
 
+This is an example of a parallax
+{% include wax/parallax.html collection=[bofh] pid=[ms102] %}
+
 **Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles.**  
 It is comprised of a few Ruby gems, some customizable UI components, and (hopefully soon!) a lot of documentation and recipes for creating, deploying, and maintaining digital exhibitions.
 
