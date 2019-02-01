@@ -90,10 +90,11 @@ lunr_index:
 # submenu via `sub`.
 
 menu:
-  - label: 'About'
+  - label: 'About'\
+    link: '/about/'
     sub:
-      - label: 'Wax'
-        link: '/about/'
+      - label: 'About'
+        link: '/collection/'
       - label: 'Documentation on Wax'
         link: 'https://minicomp.github.io/wiki/#/wax/'
       - label: 'Credits'
@@ -106,8 +107,6 @@ menu:
         link: '/exhibits/b/'
       - label: 'Inline Image References'
         link: '/exhibits/c/'
-  - label: 'Browse'
-    link: '/collection/'
   - label: 'Search'
     link: '/search/'
   - label: 'Reuse'

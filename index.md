@@ -1,26 +1,18 @@
 ---
 layout: wax/page
-show_title: false
+show_title: true
 banner:
   collection: bofh
   pid: ms103
-  y: 25%
+  y: 30%
 ---
 
-{% include wax/collection/gallery.html facet_by='type' collection='bofh' %}
-
-<<<<<<< HEAD
-{% include wax-bofh-demo/collection/gallery.html facet_by='type' collection='bofh' %}
-=======
->>>>>>> 7f087215cfa5dba1c1c256ec4b9ec7e9b2dd73eb
-
-
-__Wax__ is a [minimal computing](http://go-dh.github.io/mincomp/) project for producing digital exhibitions focused on impact, durability, ease, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our [documentation](https://minicomp.github.io/wiki/#/wax/) for installation instructions and more.
-
-Please note that __Wax is in rapid development__ and is still in the experimentation/testing phase. Wax and its accompanying documentation will become stable and semantically versioned after the beta release.
+This digital collection is focused on the McGill Library Rare Books and Special Collections complete collection of Books of Hours that span several centuries.
 
 ### Browse the Collection
+{% include wax/collection/gallery.html facet_by='type' collection='bofh' %}
 
+This collection was created through a partnership with the McGill Library and the [Groupe de recherche multidisciplinaire de Montréal sur les livres anciens (UQAM)](http://www.livresanciens.uqam.ca/) in support of their Social Sciences and Humanities Research Council of Canada funded project to create the [_Catalogue raisonné pour les Livres d’Heures des XVe et XVIe siècles conservés au Québec_](https://mcgill.on.worldcat.org/oclc/1050953347/).
 
 This site's sample collection comprises a set of objects, each of which is represented by one or more images.
 

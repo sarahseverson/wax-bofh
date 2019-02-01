@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang='en-us'>
   <head>
-  <link rel='canonical' href='http://localhost:4000/wax/bofh/ms106/'/>
-  <link rel='icon' type='image/png' href="http://localhost:4000/wax/assets/logo.png">
+  <link rel='canonical' href='http://localhost:4000/wax-bofh-demo/bofh/ms106/'/>
+  <link rel='icon' type='image/png' href="http://localhost:4000/wax-bofh-demo/assets/logo.png">
 
   <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
   <meta http-equiv='content-type' content='text/html; charset=utf-8'/>
@@ -12,18 +12,18 @@
     McGill Library Collection of Books of Hours | Excerpts from the Hours of the Virgin. Two leaves from a manuscript Book of Hours
   </title>
 
-  <link rel='stylesheet' href="http://localhost:4000/wax/assets/styles.css"/>
-  <script type='text/javascript' src="http://localhost:4000/wax/assets/js/jquery-3.2.1.min.js"></script>
-  <script type='text/javascript' src="http://localhost:4000/wax/assets/js/wax.js"></script>
+  <link rel='stylesheet' href="http://localhost:4000/wax-bofh-demo/assets/styles.css"/>
+  <script type='text/javascript' src="http://localhost:4000/wax-bofh-demo/assets/js/jquery-3.2.1.min.js"></script>
+  <script type='text/javascript' src="http://localhost:4000/wax-bofh-demo/assets/js/wax.js"></script>
 </head>
 
 
   <body>
-    <time datetime='2019-01-31 10:03'></time>
+    <time datetime='2019-01-31 21:09'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
-    <a class='navbar-brand' href="http://localhost:4000/wax/" title='Home'>
-      <img src="http://localhost:4000/wax/assets/logo.png" width='30' height='30' class='d-inline-block align-top' alt='logo'>
+    <a class='navbar-brand' href="http://localhost:4000/wax-bofh-demo/" title='Home'>
+      <img src="http://localhost:4000/wax-bofh-demo/assets/logo.png" width='30' height='30' class='d-inline-block align-top' alt='logo'>
       McGill Library Collection of Books of Hours
     </a>
 
@@ -41,11 +41,11 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-About-dropdown'>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/about/'>Wax</a>
+                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/about/'>Wax</a>
                 
-                  <a class='dropdown-item' href='https://minicomp.github.io/wiki/#/wax/'>Documentation</a>
+                  <a class='dropdown-item' href='https://minicomp.github.io/wiki/#/wax/'>Documentation on Wax</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/credits/'>Credits</a>
+                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/credits/'>Credits</a>
                 
               </div>
             </li>
@@ -58,11 +58,11 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-Exhibits-dropdown'>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/a/'>Local and Remote IIIF Manifests</a>
+                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/exhibits/a/'>Local and Remote IIIF Manifests</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/b/'>Inline Parallax Image</a>
+                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/exhibits/b/'>Inline Parallax Image</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/c/'>Inline Image References</a>
+                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/exhibits/c/'>Inline Image References</a>
                 
               </div>
             </li>
@@ -70,19 +70,19 @@
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/collection/'>Browse</a>
+              <a class='nav-link' href='http://localhost:4000/wax-bofh-demo/collection/'>Browse</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/search/'>Search</a>
+              <a class='nav-link' href='http://localhost:4000/wax-bofh-demo/search/'>Search</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/reuse/'>Reuse</a>
+              <a class='nav-link' href='http://localhost:4000/wax-bofh-demo/reuse/'>Reuse</a>
             </li>
           
         
@@ -102,16 +102,13 @@
   <div class='item-view'>
     <span class='pagination-link' id='prevlink'></span>
     
-      <link rel='stylesheet' type='text/css' href="http://localhost:4000/wax/assets/css/leaflet.css">
-<script type='text/javascript' src="http://localhost:4000/wax/assets/js/leaflet.js"></script>
-<script type='text/javascript' src="http://localhost:4000/wax/assets/js/leaflet-iiif.min.js"></script>
+       <link rel='stylesheet' type='text/css' href="http://localhost:4000/wax-bofh-demo/assets/mirador/css/mirador-combined.css">
+<script src="http://localhost:4000/wax-bofh-demo/assets/mirador/mirador.js"></script>
 
-<div id='iiif-viewer-leaflet' class='image-viewer'></div>
+<div id='mirador-iiif-viewer' class='image-viewer mirador' allowfullscreen='allowfullscreen'></div>
 
-<script>
-  $(document).ready(function() {
-    IIIFViewerLeaflet('http://localhost:4000/wax/img/derivatives/iiif/ms106/manifest.json');
-  });
+<script type='text/javascript'>
+  miradorManifestViewer('http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms106/manifest.json');
 </script>
 
     
@@ -122,8 +119,8 @@
 
 
   <script type='text/javascript'>
-    $('#prevlink').append(`<a href='http://localhost:4000/wax/bofh/ms095/' display='none'>&#8249;</a>`);
-    $('#nextlink').append(`<a href='http://localhost:4000/wax/bofh/ms096/' display='none'>&#8250;</a>`);
+    $('#prevlink').append(`<a href='http://localhost:4000/wax-bofh-demo/bofh/ms095/' display='none'>&#8249;</a>`);
+    $('#nextlink').append(`<a href='http://localhost:4000/wax-bofh-demo/bofh/ms096/' display='none'>&#8250;</a>`);
   </script>
 
 
@@ -140,8 +137,8 @@
 
       
 
-      <tr class='meta object-label'>
-        <td class='label'>Object Label</td>
+      <tr class='meta title'>
+        <td class='label'>Title</td>
         <td class='value'>Excerpts from the Hours of the Virgin. Two leaves from a manuscript Book of Hours</td>
       </tr>
     
@@ -158,9 +155,9 @@
 
       
 
-      <tr class='meta object-type'>
-        <td class='label'>Object Type</td>
-        <td class='value'></td>
+      <tr class='meta date'>
+        <td class='label'>Date</td>
+        <td class='value'>About 1475-1490</td>
       </tr>
     
       
@@ -176,8 +173,17 @@
 
       
 
-      <tr class='meta current-location'>
-        <td class='label'>Current Location</td>
+      <tr class='meta language'>
+        <td class='label'>Language</td>
+        <td class='value'>Latin</td>
+      </tr>
+    
+      
+
+      
+
+      <tr class='meta full-description'>
+        <td class='label'>Full description</td>
         <td class='value'></td>
       </tr>
     
@@ -185,18 +191,18 @@
 
       
 
-      <tr class='meta date'>
-        <td class='label'>Date</td>
-        <td class='value'>About 1475-1490</td>
+      <tr class='meta description-source'>
+        <td class='label'>Description source</td>
+        <td class='value'>Notice 15</td>
       </tr>
     
       
 
       
 
-      <tr class='meta source'>
-        <td class='label'>Source</td>
-        <td class='value'></td>
+      <tr class='meta current-location-including-call-number'>
+        <td class='label'>Current location including call number</td>
+        <td class='value'>MS 106. Rare Books and Special Collections, McGill University Library</td>
       </tr>
     
   </table>
@@ -228,7 +234,7 @@
             </a>
            / 
           
-            <a href='http://localhost:4000/wax/credits'>
+            <a href='http://localhost:4000/wax-bofh-demo/credits'>
               Credits
             </a>
            / 
@@ -236,14 +242,19 @@
             <a href='https://gitter.im/minicomp/wax/'>
               Contact
             </a>
+           / 
+          
+            <a href='http://digital.library.mcgill.ca/horae'>
+              Original Digital Collection
+            </a>
           
           
         </p>
         <p class='footer-logos'>
           
           
-          <a href="http://localhost:4000/wax/">
-            <img src='http://localhost:4000/wax/assets/logo.png' />
+          <a href="http://localhost:4000/wax-bofh-demo/">
+            <img src='http://localhost:4000/wax-bofh-demo/assets/mcgill-martlet.png' />
           </a>
           
           
@@ -260,6 +271,6 @@
     </div>
   </body>
 
-  <script type='text/javascript' src='http://localhost:4000/wax/assets/js/bootstrap.min.js'></script>
-  <script type='text/javascript' src='http://localhost:4000/wax/assets/js/popper.min.js'></script>
+  <script type='text/javascript' src='http://localhost:4000/wax-bofh-demo/assets/js/bootstrap.min.js'></script>
+  <script type='text/javascript' src='http://localhost:4000/wax-bofh-demo/assets/js/popper.min.js'></script>
 </html>

@@ -1,6 +1,6 @@
 ---
 layout: wax/page
-title: What is Wax?
+title: About
 permalink: /about/
 banner:
   collection: bofh
@@ -9,7 +9,32 @@ banner:
 ---
 
 This is an example of a parallax
-{% include wax/parallax.html collection=[bofh] pid=[ms102] %}
+{% include wax/parallax.html collection='bofh' pid='ms102' %}
+
+This collection was created through a partnership with the McGill Library and the [Groupe de recherche multidisciplinaire de Montréal sur les livres anciens (UQAM)](http://www.livresanciens.uqam.ca/) in support of their Social Sciences and Humanities Research Council of Canada funded project to create the [_Catalogue raisonné pour les Livres d’Heures des XVe et XVIe siècles conservés au Québec_](https://mcgill.on.worldcat.org/oclc/1050953347/).
+
+The catalogue was followed by an exhibition at the  Montreal Museum of Fine Arts from 4 September 2018 – 6 January 2019 titled _Resplendent Illuminations: Books of Hours from the 13th to the 16th Century in Quebec Collections_ curated by Hilliard Goldfarb (MMFA), Brenda Dunn-Lardeau (UQAM), Richard Virr (McGill).
+
+McGill Library contributors to the digitizatoin and digital collection:
+* Richard Virr, Retired Chief Curator, Rare Books and Special Collections
+* Ann Marie Holland, Assistant Librarian, Rare Books and Special Collections
+* Sarah Severson, Digital Library Services Coordinator
+* Gregory Houston, Digitization and New Media Administrator
+* Ella Myette, Digitization Project assistant
+* Kat Despain, Digitization Project assistant
+* Katelynn Siddall, Digitization Project assistant
+* Kim Geraldi, Digitization Project assistant
+
+Groupe de recherche multidisciplinaire de Montréal sur les livres anciens (UQAM) contributors to the catalogue and exhibition
+* Brenda Dunn-Lardeau (UQAM)
+* Ariane Bergeron-Foote (archivist paleographer)
+* Sarah Cameron-Pesant (Université de Montréal)
+* Helena Kogen (Université du Québec à Montréal)
+* Geneviève Samson (Bibliothèque et Archives Canada, Ottawa)
+* Richard Virr (McGill University)
+
+# About Wax
+This current site is an experiment with WAX.
 
 **Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles.**  
 It is comprised of a few Ruby gems, some customizable UI components, and (hopefully soon!) a lot of documentation and recipes for creating, deploying, and maintaining digital exhibitions.

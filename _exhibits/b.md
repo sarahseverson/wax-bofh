@@ -1,21 +1,17 @@
 ---
 layout: wax/exhibit
-title: 'Exhibit B: Inline Parallax Image'
-author: Mihr 'Ali
-publish_date: 2018-11-15
+title: 'A collection of detached leaves: An education tool or a ‘Biblioclasts crime'
+author:
+publish_date: 2019-01-31
 permalink: /exhibits/b/
 ---
 
-Ut eleifend lacus at erat efficitur bibendum. Ut laoreet elit nec dolor molestie finibus. Vivamus justo risus, scelerisque nec dolor ut, pretium fringilla purus. Nam nisl erat, tristique ac libero vitae, bibendum pellentesque nulla. Praesent accumsan ut mauris ut euismod. Etiam mattis a justo eget blandit. Aliquam vitae magna eget nisi suscipit finibus id sit amet nulla.
+# A collection of detached leaves: An education tool or a ‘Biblioclasts crime
 
-Nam velit leo, mattis ac dui non, vulputate porttitor sapien. Praesent in aliquet dui. Nulla facilisi. Maecenas nulla ex, facilisis non aliquet ac, ultrices eu sem. Sed vel aliquet urna. Mauris quis ex at lectus iaculis elementum id id massa. Integer luctus nulla vel tellus rutrum, ac pulvinar erat finibus. Aliquam erat volutpat. Pellentesque vel velit sit amet mauris dignissim feugiat.
+From the 15th century on, the practice of cutting up or dismembering both illuminated manuscripts and those containing early texts became common in response to the demand from book collectors and others in the market for early books. This unhappy practice, which still continues, nevertheless represented a taste for art and a desire to “bring out” the miniatures in the books, thus transforming them into small easel paintings that competed with large-format works and gained recognition and respect for master illuminators as artists in their own right.
 
+{% include wax/parallax.html collection='bofh' pid='ms95' y='40%' %}
 
-{% include wax/parallax.html collection='qatar' pid='obj12' y='40%' %}
+The illuminated leaf that had been detached and inserted into the Hours for the use of Toul, printed in 1547, represents practices that began in the 17th century and reflects the aesthetic pleasure of the owner and collector in 1776. The two Italian leaves, featuring the scenes of a Woman reading in her studiolo and the Deposition of Christ, were arranged as a mosaic, and testify to the “biblioclastic” practices that go back to the commercial activities of the famous Venetian Abbé Luigi Celotti, who organized the first auction of illuminated leaves in 1825, and to the ambition of early 19th-century collectors to make themselves albums of cut-out miniatures.
 
-
-Duis commodo ligula libero, a pharetra ligula posuere sit amet. Sed ipsum dolor, elementum eget nisl eget, sagittis vestibulum augue. Donec tincidunt mauris et nunc sagittis, nec consectetur lorem tristique. Nulla tincidunt magna ut ullamcorper consectetur. Nulla mi urna, feugiat sed massa non, ullamcorper efficitur dolor. Sed luctus, massa eget pharetra posuere, nibh sem eleifend lectus, lobortis molestie ante libero non metus. Aenean et est sit amet est pulvinar convallis vel non tortor. Nunc semper commodo fringilla. Proin eget metus eget felis faucibus aliquet. Cras ultrices turpis id nibh cursus fringilla. Aenean nec magna turpis. Suspendisse egestas tellus iaculis ante pharetra imperdiet ac at odio.
-
-Integer eu augue elementum, venenatis nisi vitae, ultrices magna. Nunc accumsan sem quis tristique iaculis. Quisque sed lorem tortor. Quisque viverra sem a orci aliquet sodales. Aliquam commodo eros at sagittis vehicula. Quisque in massa turpis. Aliquam aliquam consectetur magna non dignissim. Sed fringilla a ligula vitae molestie.
-
-Duis finibus leo non velit viverra tincidunt. Fusce efficitur laoreet convallis. Sed sem felis, porttitor sit amet volutpat ac, consequat quis lectus. Donec elementum dignissim vehicula. Pellentesque fringilla ex bibendum, ornare sapien a, mollis neque. Duis faucibus diam vitae faucibus feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra elit sem, et euismod massa mattis ut. Phasellus maximus ipsum in nulla sollicitudin viverra. Morbi semper lectus quis dolor cursus, ut convallis lacus venenatis. Pellentesque lorem mauris, malesuada a fringilla et, iaculis sodales metus. Suspendisse finibus purus ut sem commodo feugiat.
+Fortunately, there were people with more noble ambitions. For his plan to create a small museum of the book in the McGill University Library in the 1920s and 1930s, Gerhard R. Lomer had the help of F. Cleveland Morgan, preeminent patron of the Art Association (later the Montreal Museum of Fine Arts), who shared his desire to educate the general public. This is why two leaves cut from the same Book of Hours for the use of Bayeux and two others from a single breviary dating from about 1300 were acquired by these two institutions.

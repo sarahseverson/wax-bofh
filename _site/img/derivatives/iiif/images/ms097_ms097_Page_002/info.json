@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/ms097_ms097_Page_002",
+  "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/images/ms097_ms097_Page_002",
   "protocol": "http://iiif.io/api/image",
   "width": 2369,
   "height": 3494,

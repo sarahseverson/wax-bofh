@@ -1,51 +1,51 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/collection/bofh.json",
+  "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/collection/bofh.json",
   "@type": "sc:Collection",
   "label": "bofh",
   "manifests": [
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms105/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms105/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms105"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms102/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms102/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms102"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms103/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms103/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms103"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms104/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms104/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms104"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms099/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms099/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms099"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms097/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms097/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms097"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms096/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms096/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms096"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms106/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms106/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms106"
     },
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/ms095/manifest.json",
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms095/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms095"
     }

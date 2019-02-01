@@ -1,24 +1,22 @@
 ---
 layout: wax/exhibit
-title: 'Exhibit C: Inline Image References'
-author: Mihr 'Ali
-publish_date: 2018-11-15
+title: 'Reading Women: Inline Image References'
+author:
+publish_date: 2019-01-31
 permalink: /exhibits/c/
 ---
+# The Book of Hours: Simple pious reading for women?
 
-Ut eleifend lacus at erat efficitur bibendum. Ut laoreet elit nec dolor molestie finibus. Vivamus justo risus, scelerisque nec dolor ut, pretium fringilla purus. Nam nisl erat, tristique ac libero vitae, bibendum pellentesque nulla. Praesent accumsan ut mauris ut euismod. Etiam mattis a justo eget blandit. Aliquam vitae magna eget nisi suscipit finibus id sit amet nulla.
+Both men and women read the Books of Hours, although there are some who still insist that they were primarily the favourite devotional reading for women in their homes. However, this assumption requires some clarification: in Lacité des dames, written at the very beginning of the 15th century, Christine de Pisan painted a picture of the sincere piety of women and noted that they read Books of Hours not only in their homes but also took them to church rather than a missal.
 
-Nam velit leo, mattis ac dui non, vulputate porttitor sapien. Praesent in aliquet dui. Nulla facilisi. Maecenas nulla ex, facilisis non aliquet ac, ultrices eu sem. Sed vel aliquet urna. Mauris quis ex at lectus iaculis elementum id id massa. Integer luctus nulla vel tellus rutrum, ac pulvinar erat finibus. Aliquam erat volutpat. Pellentesque vel velit sit amet mauris dignissim feugiat.
+{% include wax/inline_image.html collection='bofh' pid='ms096' %}
 
-{% include wax/inline_image.html collection='qatar' pid='obj7' %}
+In the Rhodes Hours, the patron is painted kneeling right in the middle of the illumination of the Annunciation in a scene that combines the sacred and the profane, while the Marian prayer Obsecro teis couched in the feminine voice (famula tua). McGill MS155.
 
-Duis commodo ligula libero, a pharetra ligula posuere sit amet. Sed ipsum dolor, elementum eget nisl eget, sagittis vestibulum augue. Donec tincidunt mauris et nunc sagittis, nec consectetur lorem tristique. Nulla tincidunt magna ut ullamcorper consectetur. Nulla mi urna, feugiat sed massa non, ullamcorper efficitur dolor. Sed luctus, massa eget pharetra posuere, nibh sem eleifend lectus, lobortis molestie ante libero non metus. Aenean et est sit amet est pulvinar convallis vel non tortor. Nunc semper commodo fringilla. Proin eget metus eget felis faucibus aliquet. Cras ultrices turpis id nibh cursus fringilla. Aenean nec magna turpis. Suspendisse egestas tellus iaculis ante pharetra imperdiet ac at odio.
+{% include wax/inline_image.html collection='bofh' pid='ms097' %}
 
-Integer eu augue elementum, venenatis nisi vitae, ultrices magna. Nunc accumsan sem quis tristique iaculis. Quisque sed lorem tortor. Quisque viverra sem a orci aliquet sodales. Aliquam commodo eros at sagittis vehicula. Quisque in massa turpis. Aliquam aliquam consectetur magna non dignissim. Sed fringilla a ligula vitae molestie.
+Renée de Bourbon, Duchesse de Lorraine, commis-sioned Pierre Gringore to translate into French the Heures de Nostre Dame, published in 1525. McGill European Prints 8vo 309.
+Some leaves of the psalter-breviary for the use of the Brigittines of the Mariënwater abbey in Brabant may well have been painted by the nuns, since their scriptorium of illuminators and copyists included both men and women. McGill MS151.
+Credits: Montreal Museum of Fine Arts / Musée de beaux-arts de Montréal for permissions to use texts prepared by Brenda Dunn-Lardeau et Richard Virr for the 2018 exhibition: Resplendent Illuminations: Books of Hours from the 13th to the 16th Century in Quebec Collections / Resplendissantes enluminures : Livres d’Heures du XIIIe au XVIe siècle dans les collections du Québec.
 
-Duis finibus leo non velit viverra tincidunt. Fusce efficitur laoreet convallis. Sed sem felis, porttitor sit amet volutpat ac, consequat quis lectus. Donec elementum dignissim vehicula. Pellentesque fringilla ex bibendum, ornare sapien a, mollis neque. Duis faucibus diam vitae faucibus feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra elit sem, et euismod massa mattis ut. Phasellus maximus ipsum in nulla sollicitudin viverra. Morbi semper lectus quis dolor cursus, ut convallis lacus venenatis. Pellentesque lorem mauris, malesuada a fringilla et, iaculis sodales metus. Suspendisse finibus purus ut sem commodo feugiat.
-
-
-{% include wax/inline_image.html collection='qatar' pid='obj2' %}
-
-Duis commodo ligula libero, a pharetra ligula posuere sit amet. Sed ipsum dolor, elementum eget nisl eget, sagittis vestibulum augue. Donec tincidunt mauris et nunc sagittis, nec consectetur lorem tristique. Nulla tincidunt magna ut ullamcorper consectetur. Nulla mi urna, feugiat sed massa non, ullamcorper efficitur dolor. Sed luctus, massa eget pharetra posuere, nibh sem eleifend lectus, lobortis molestie ante libero non metus. Aenean et est sit amet est pulvinar convallis vel non tortor. Nunc semper commodo fringilla. Proin eget metus eget felis faucibus aliquet. Cras ultrices turpis id nibh cursus fringilla. Aenean nec magna turpis. Suspendisse egestas tellus iaculis ante pharetra imperdiet ac at odio.
+{% include wax/inline_image.html collection='bofh' pid='ms098' %}
