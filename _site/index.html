@@ -19,7 +19,7 @@
 
 
   <body>
-    <time datetime='2019-01-31 21:31'></time>
+    <time datetime='2019-02-01 12:39'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
     <a class='navbar-brand' href="http://localhost:4000/wax-bofh-demo/" title='Home'>
@@ -41,9 +41,7 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-About-dropdown'>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/about/'>Wax</a>
-                
-                  <a class='dropdown-item' href='https://minicomp.github.io/wiki/#/wax/'>Documentation on Wax</a>
+                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/collection/'>About</a>
                 
                   <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/credits/'>Credits</a>
                 
@@ -58,19 +56,13 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-Exhibits-dropdown'>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/exhibits/a/'>Local and Remote IIIF Manifests</a>
+                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/exhibits/a/'>Comparing Local and Remote IIIF Manifests</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/exhibits/b/'>Inline Parallax Image</a>
+                  <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/exhibits/b/'>Parallax Image</a>
                 
                   <a class='dropdown-item' href='http://localhost:4000/wax-bofh-demo/exhibits/c/'>Inline Image References</a>
                 
               </div>
-            </li>
-          
-        
-          
-            <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax-bofh-demo/collection/'>Browse</a>
             </li>
           
         
@@ -119,7 +111,7 @@
   <h1 class='page-title'></h1>
 
 
-<p>This digital collection is focused on the McGill Library Rare Books and Special Collections complete collection of Books of Hours that span several centuries.</p>
+<p>This digital collection represents the McGill Library Rare Books and Special Collections complete Books of Hours holdings that were digitized in support of the creation of the <a href="https://mcgill.on.worldcat.org/oclc/1050953347/"><em>Catalogue raisonné pour les Livres d’Heures des XVe et XVIe siècles conservés au Québec</em></a></p>
 
 <h3 id="browse-the-collection">Browse the Collection</h3>
 
@@ -137,12 +129,15 @@
   gallery.append("<div class='gallery-item detached-leaves all'><a href='http://localhost:4000/wax-bofh-demo/bofh/ms104/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/images/ms104_0/full/250,/0/default.jpg'/><div class='overlay'><p class='info'>Excerpts from the Office of Mary-Magdalen and Obsecro te. Two leaves from a manuscript Book of Hours</p></div></div></a></div>");
   gallery.append("<div class='gallery-item detached-leaves all'><a href='http://localhost:4000/wax-bofh-demo/bofh/ms105/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/images/ms105_0/full/250,/0/default.jpg'/><div class='overlay'><p class='info'>Excerpts from the Suffrages. Two leaves from a manuscript Book of Hours</p></div></div></a></div>");
   gallery.append("<div class='gallery-item detached-leaves all'><a href='http://localhost:4000/wax-bofh-demo/bofh/ms106/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/images/ms106_0/full/250,/0/default.jpg'/><div class='overlay'><p class='info'>Excerpts from the Hours of the Virgin. Two leaves from a manuscript Book of Hours</p></div></div></a></div>");
+  gallery.append("<div class='gallery-item detached-leaves all'><a href='http://localhost:4000/wax-bofh-demo/bofh/ms108/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/images/ms108_0/full/250,/0/default.jpg'/><div class='overlay'><p class='info'></p></div></div></a></div>");
+  gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax-bofh-demo/bofh/ms110/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/images/ms110_0/full/250,/0/default.jpg'/><div class='overlay'><p class='info'></p></div></div></a></div>");
+  gallery.append("<div class='gallery-item detached-leaves all'><a href='http://localhost:4000/wax-bofh-demo/bofh/ms153/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/images/ms153_0/full/250,/0/default.jpg'/><div class='overlay'><p class='info'></p></div></div></a></div>");
   
 
   
     container.prepend('<div id="bofh-facet-buttons" class="facet-buttons"></div>');
     var buttonDiv = $('#bofh-facet-buttons');
-    var facets = Array.from(new Set(['detached-leaves', 'detached-leaves', 'manuscript', 'detached-leaves', 'detached-leaves', 'detached-leaves', 'detached-leaves', 'detached-leaves', 'detached-leaves']));
+    var facets = Array.from(new Set(['detached-leaves', 'detached-leaves', 'manuscript', 'detached-leaves', 'detached-leaves', 'detached-leaves', 'detached-leaves', 'detached-leaves', 'detached-leaves', 'detached-leaves', '', 'detached-leaves']));
     buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
     for (i in facets) {
       buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
@@ -159,11 +154,6 @@
   
 </script>
 
-<p>This collection was created through a partnership with the McGill Library and the <a href="http://www.livresanciens.uqam.ca/">Groupe de recherche multidisciplinaire de Montréal sur les livres anciens (UQAM)</a> in support of their Social Sciences and Humanities Research Council of Canada funded project to create the <a href="https://mcgill.on.worldcat.org/oclc/1050953347/"><em>Catalogue raisonné pour les Livres d’Heures des XVe et XVIe siècles conservés au Québec</em></a>.</p>
-
-<p>This site’s sample collection comprises a set of objects, each of which is represented by one or more images.</p>
-
-<p>In the parlance of <a href="http://iiif.io/">IIIF</a>, each collection item is represented by a <a href="https://iiif.io/api/presentation/2.0/#manifest">manifest</a> (like <a href="http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/obj1/manifest.json">this one</a>), and each image asset is a <a href="https://iiif.io/api/presentation/2.0/#canvas">canvas</a> (like <a href="http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/canvas/obj1.json">this</a>). These JSON files are interpreted by a IIIF-compliant viewer. Wax includes two viewer options: <a href="https://github.com/mejackreed/Leaflet-IIIF">LeafletIiif</a> (as seen <a href="http://localhost:4000/wax-bofh-demo/qatar/obj1/">here</a>) and <a href="http://projectmirador.org/">Mirador</a>, used for <em><a href="http://localhost:4000/wax-bofh-demo/qatar/obj12/">The Book of Horses</a></em>. You can use either or both however you like, though Mirador is much larger to load and is best suited for documents.</p>
 
 
       </div>
@@ -196,12 +186,17 @@
            / 
           
             <a href='https://gitter.im/minicomp/wax/'>
-              Contact
+              Contact about Wax
+            </a>
+           / 
+          
+            <a href='https://www.mcgill.ca/library/branches/rarebooks'>
+              Contact about the collection
             </a>
            / 
           
             <a href='http://digital.library.mcgill.ca/horae'>
-              Original Digital Collection
+              Original digital collection
             </a>
           
           

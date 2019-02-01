@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/images/ms108_1",
+  "protocol": "http://iiif.io/api/image",
+  "width": 3888,
+  "height": 5586,
+  "sizes": [
+    {
+      "width": 3888,
+      "height": 5586
+    },
+    {
+      "width": 250,
+      "height": 359
+    },
+    {
+      "width": 250,
+      "height": 359
+    },
+    {
+      "width": 1140,
+      "height": 1638
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

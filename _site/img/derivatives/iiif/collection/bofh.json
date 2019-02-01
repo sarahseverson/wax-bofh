@@ -48,6 +48,21 @@
       "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms095/manifest.json",
       "@type": "sc:Manifest",
       "label": "ms095"
+    },
+    {
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms108/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ms108"
+    },
+    {
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms153/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ms153"
+    },
+    {
+      "@id": "http://localhost:4000/wax-bofh-demo/img/derivatives/iiif/ms110/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ms110"
     }
   ]
 }

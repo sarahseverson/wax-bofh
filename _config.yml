@@ -80,6 +80,8 @@ lunr_index:
           - artist
           - description
           - language
+          - description_source
+          - call_number
 
 
 # --------------------------------------------------------------
@@ -95,8 +97,6 @@ menu:
     sub:
       - label: 'About'
         link: '/collection/'
-      - label: 'Documentation on Wax'
-        link: 'https://minicomp.github.io/wiki/#/wax/'
       - label: 'Credits'
         link: '/credits/'
   - label: 'Exhibits'
@@ -108,9 +108,9 @@ menu:
       - label: 'Inline Image References'
         link: '/exhibits/c/'
   - label: 'Search'
-    link: '/search/'
+    link: 'search/'
   - label: 'Reuse'
-    link: '/reuse/'
+    link: 'reuse/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
