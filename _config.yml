@@ -32,7 +32,7 @@ copyright:        ''
 theme:            wax_theme
 permalink:        'pretty'
 safe:             true
-exclude:          [Gemfile*, Rakefile, vendor, spec, README.md]
+exclude:          [Gemfile*, Rakefile, vendor, spec, README.md, wax_theme]
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
