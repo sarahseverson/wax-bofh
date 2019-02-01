@@ -90,7 +90,7 @@ lunr_index:
 # submenu via `sub`.
 
 menu:
-  - label: 'About'\
+  - label: 'About'
     link: '/about/'
     sub:
       - label: 'About'
