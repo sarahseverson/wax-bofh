@@ -1,12 +1,11 @@
 ---
 layout: wax/page
-title: Browse the Collection
+title: About the Collection
 permalink: /collection/
 ---
 
 This digital collection features Books of Hours in both manuscript and printed form, spanning several centuries from [Rare Books and Special Collections](https://www.mcgill.ca/library/branches/rarebooks) at the [McGill Library](https://www.mcgill.ca/library/).
 
-This button should show all -> {% include wax/collection/gallery.html collection='qatar' facet_by='object_type' %}
 
 # History
 
@@ -18,4 +17,17 @@ In the 19th and 20th centuries, these devotional books found a new vocation, bec
 
 A number of Books of Hours were acquired by public institutions in Quebec through private donations as well as under a purchasing policy that encouraged public education. Thus, in the 1920s and 1930s, Gerhard R. Lomer, one of McGill University’s first librarians, launched an innovative project to create a small museum of the book inside the library open to the general public, to present a brief history of manuscript and printed books as well as the iconography through the centuries.
 
+# About the McGill Collection of Books of Hours
 
+The McGill collection of Books of Hours was started in 1921 by the University Librarian, Dr. Gerhard R. Lomer. They were to be exhibits in the Library Museum that opened in 1922. The museum was dedicated to the History of the Book and a wide range of materials were exhibited: manuscript codices, single manuscript leaves, early printed books among others. These items were exemplars of the book across time and civilizations. The museum was closed in the late 1940s.
+
+During its years of operation, five manuscript Books of Hours were acquired as were two printed Books of Hours. As well, many single leaves from Books of Hours and other works including Psalters and Breviaries were acquired; these were framed and hung in the museum.
+
+In the 1978s and 1980s, four Books of Hours were received as gifts and few single leaves were acquired by purchase. During the late 1980s and early 1990s, the collection of medieval and renaissance manuscripts was reorganized, and preliminary detailed descriptions were prepared by Dionysios Hatzopoulos. Preliminary descriptions for manuscripts that were either not in the collection then or were not available at that time have since been added.
+
+Finally, in 2006 a Book of Hours printed by Gilles Hardouin in 1516 was acquired for the Library; it had been in Quebec collections since the early 1800s.
+
+## Digitization
+This collection was carefully digitized using an overhead copystand system and a two person digitization team. The camera system includes a Nikon 3dx and 60mm macro lens mounted to a TTI reprographic motorized column with two buhlite soft cube lights. Each page was individually photographed and the books were delicately held open by the operator without the use of a book cradle. The second operator would control the software, check the focus and exposure settings. The pages were often held open using a smooth wooden palette.
+
+All the raw images were colour balanced using a batch process in Photoshop. Gray-scale target values were normalized and saved as an adjustment curve. Once the raw master file was archived, a digital surrogate file was cropped and deskewed and converted to PDF. The PDF was compressed for online distribution.

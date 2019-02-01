@@ -18,7 +18,7 @@ The catalogue was followed by an exhibition at the  Montreal Museum of Fine Arts
 
 
 # About Wax
-This current site is an experiment with WAX.
+This current site is an _experiment_ with Wax. But what is Wax? 
 
 **Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles.**  
 It is comprised of a few Ruby gems, some customizable UI components, and (hopefully soon!) a lot of documentation and recipes for creating, deploying, and maintaining digital exhibitions.

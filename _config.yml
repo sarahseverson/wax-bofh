@@ -123,9 +123,11 @@ footer:
       link: 'https://github.com/minicomp/wax'
     - label: 'Credits'
       link: '/credits'
-    - label: 'Contact'
+    - label: 'Contact about Wax'
       link: 'https://gitter.im/minicomp/wax/'
-    - label: 'Original Digital Collection'
+    - label: 'Contact about the collection'
+      link: 'https://www.mcgill.ca/library/branches/rarebooks'
+    - label: 'Original digital collection'
       link: 'http://digital.library.mcgill.ca/horae'
   logos:
     - img: '/assets/mcgill-martlet.png'

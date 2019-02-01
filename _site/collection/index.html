@@ -9,7 +9,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'/>
 
   <title>
-    McGill Library Collection of Books of Hours | Browse the Collection
+    McGill Library Collection of Books of Hours | About the Collection
   </title>
 
   <link rel='stylesheet' href="http://localhost:4000/wax-bofh-demo/assets/styles.css"/>
@@ -19,7 +19,7 @@
 
 
   <body>
-    <time datetime='2019-01-31 21:22'></time>
+    <time datetime='2019-01-31 21:31'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
     <a class='navbar-brand' href="http://localhost:4000/wax-bofh-demo/" title='Home'>
@@ -97,39 +97,10 @@
         
 
 
-  <h1 class='page-title'>Browse the Collection</h1>
+  <h1 class='page-title'>About the Collection</h1>
 
 
 <p>This digital collection features Books of Hours in both manuscript and printed form, spanning several centuries from <a href="https://www.mcgill.ca/library/branches/rarebooks">Rare Books and Special Collections</a> at the <a href="https://www.mcgill.ca/library/">McGill Library</a>.</p>
-
-<p>This button should show all -&gt;</p>
-
-<div id="wax-gallery-qatar-container" class="wax-gallery-container"></div>
-<script type="text/javascript">
-  var container= $('#wax-gallery-qatar-container');
-  container.prepend("<div id='wax-gallery-qatar' class='wax-gallery'></div>");
-  var gallery = $('#wax-gallery-qatar');
-  
-
-  
-    container.prepend('<div id="qatar-facet-buttons" class="facet-buttons"></div>');
-    var buttonDiv = $('#qatar-facet-buttons');
-    var facets = Array.from(new Set([]));
-    buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
-    for (i in facets) {
-      buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
-    }
-    $(document).ready(function(){
-      $(".facet").click(function(){
-        var filterValue = $(this).attr('data-filter');
-        $('.facet').removeClass('active');
-        $(this).addClass('active');
-        if(filterValue == 'all') { $('.all').show('slow'); }
-        else { $('.all').hide('slow'); $(`.${filterValue}`).show('slow'); }
-      });
-    });
-  
-</script>
 
 <h1 id="history">History</h1>
 
@@ -141,6 +112,20 @@
 
 <p>A number of Books of Hours were acquired by public institutions in Quebec through private donations as well as under a purchasing policy that encouraged public education. Thus, in the 1920s and 1930s, Gerhard R. Lomer, one of McGill University’s first librarians, launched an innovative project to create a small museum of the book inside the library open to the general public, to present a brief history of manuscript and printed books as well as the iconography through the centuries.</p>
 
+<h1 id="about-the-mcgill-collection-of-books-of-hours">About the McGill Collection of Books of Hours</h1>
+
+<p>The McGill collection of Books of Hours was started in 1921 by the University Librarian, Dr. Gerhard R. Lomer. They were to be exhibits in the Library Museum that opened in 1922. The museum was dedicated to the History of the Book and a wide range of materials were exhibited: manuscript codices, single manuscript leaves, early printed books among others. These items were exemplars of the book across time and civilizations. The museum was closed in the late 1940s.</p>
+
+<p>During its years of operation, five manuscript Books of Hours were acquired as were two printed Books of Hours. As well, many single leaves from Books of Hours and other works including Psalters and Breviaries were acquired; these were framed and hung in the museum.</p>
+
+<p>In the 1978s and 1980s, four Books of Hours were received as gifts and few single leaves were acquired by purchase. During the late 1980s and early 1990s, the collection of medieval and renaissance manuscripts was reorganized, and preliminary detailed descriptions were prepared by Dionysios Hatzopoulos. Preliminary descriptions for manuscripts that were either not in the collection then or were not available at that time have since been added.</p>
+
+<p>Finally, in 2006 a Book of Hours printed by Gilles Hardouin in 1516 was acquired for the Library; it had been in Quebec collections since the early 1800s.</p>
+
+<h2 id="digitization">Digitization</h2>
+<p>This collection was carefully digitized using an overhead copystand system and a two person digitization team. The camera system includes a Nikon 3dx and 60mm macro lens mounted to a TTI reprographic motorized column with two buhlite soft cube lights. Each page was individually photographed and the books were delicately held open by the operator without the use of a book cradle. The second operator would control the software, check the focus and exposure settings. The pages were often held open using a smooth wooden palette.</p>
+
+<p>All the raw images were colour balanced using a batch process in Photoshop. Gray-scale target values were normalized and saved as an adjustment curve. Once the raw master file was archived, a digital surrogate file was cropped and deskewed and converted to PDF. The PDF was compressed for online distribution.</p>
 
 
       </div>
