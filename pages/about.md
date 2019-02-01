@@ -15,23 +15,7 @@ This collection was created through a partnership with the McGill Library and th
 
 The catalogue was followed by an exhibition at the  Montreal Museum of Fine Arts from 4 September 2018 – 6 January 2019 titled _Resplendent Illuminations: Books of Hours from the 13th to the 16th Century in Quebec Collections_ curated by Hilliard Goldfarb (MMFA), Brenda Dunn-Lardeau (UQAM), Richard Virr (McGill).
 
-McGill Library contributors to the digitizatoin and digital collection:
-* Richard Virr, Retired Chief Curator, Rare Books and Special Collections
-* Ann Marie Holland, Assistant Librarian, Rare Books and Special Collections
-* Sarah Severson, Digital Library Services Coordinator
-* Gregory Houston, Digitization and New Media Administrator
-* Ella Myette, Digitization Project assistant
-* Kat Despain, Digitization Project assistant
-* Katelynn Siddall, Digitization Project assistant
-* Kim Geraldi, Digitization Project assistant
 
-Groupe de recherche multidisciplinaire de Montréal sur les livres anciens (UQAM) contributors to the catalogue and exhibition
-* Brenda Dunn-Lardeau (UQAM)
-* Ariane Bergeron-Foote (archivist paleographer)
-* Sarah Cameron-Pesant (Université de Montréal)
-* Helena Kogen (Université du Québec à Montréal)
-* Geneviève Samson (Bibliothèque et Archives Canada, Ottawa)
-* Richard Virr (McGill University)
 
 # About Wax
 This current site is an experiment with WAX.
@@ -69,6 +53,6 @@ Below is a diagram to give you a zoomed-out view. In summary, you create a file 
 
 From there, you can run tests on your site to catch errors and decide where and how to put it online with greater flexibility.
 
-<a href="{{ '/img/wax_workflow.jpg' | absolute_url }}">
-  <img src="{{ '/img/wax_workflow.jpg' | absolute_url }}"/>
+<a href="{{ '/assets/wax_workflow.jpg' | absolute_url }}">
+  <img src="{{ '/assets/wax_workflow.jpg' | absolute_url }}"/>
 </a>

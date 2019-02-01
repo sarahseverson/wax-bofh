@@ -101,9 +101,9 @@ menu:
         link: '/credits/'
   - label: 'Exhibits'
     sub:
-      - label: 'Local and Remote IIIF Manifests'
+      - label: 'Comparing Local and Remote IIIF Manifests'
         link: '/exhibits/a/'
-      - label: 'Inline Parallax Image'
+      - label: 'Parallax Image'
         link: '/exhibits/b/'
       - label: 'Inline Image References'
         link: '/exhibits/c/'
