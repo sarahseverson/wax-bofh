@@ -7,9 +7,7 @@ banner:
   pid: ms110
   y: 30%
 ---
-We wish to extend a thank you to the Montreal Museum of Fine Arts for permissions to use texts prepared by Brenda Dunn-Lardeau and Richard Virr for the 2018 exhibition: [Resplendent Illuminations: Books of Hours from the 13th to the 16th Century in Quebec Collections](https://www.mbam.qc.ca/en/exhibitions/past/resplendent-illuminations/) for this digital collection site.
-
-### McGill Library digitization and digital collection
+## McGill Library digitization and digital collection
 Richard Virr, Retired Chief Curator, Rare Books and Special Collections</br>
 Ann Marie Holland, Assistant Librarian, Rare Books and Special Collections</br>
 Sarah Severson, Digital Library Services Coordinator</br>
@@ -18,7 +16,9 @@ Ella Myette, Digitization Project assistant</br>
 Kat Despain, Digitization Project assistant</br>
 Katelynn Siddall, Digitization Project assistant</br>
 Kim Geraldi, Digitization Project assistant</br>
-### Groupe de recherche multidisciplinaire de Montréal sur les livres anciens (UQAM) contributors to the catalogue and exhibition
+
+We wish to extend a thank you to the Montreal Museum of Fine Arts for permissions to use texts prepared by Brenda Dunn-Lardeau and Richard Virr for the 2018 exhibition: [Resplendent Illuminations: Books of Hours from the 13th to the 16th Century in Quebec Collections](https://www.mbam.qc.ca/en/exhibitions/past/resplendent-illuminations/) for this digital collection site.
+## Groupe de recherche multidisciplinaire de Montréal sur les livres anciens (UQAM) contributors to the catalogue and exhibition
 Brenda Dunn-Lardeau (UQAM)</br>
 Ariane Bergeron-Foote (archivist paleographer)</br>
 Sarah Cameron-Pesant (Université de Montréal)</br>
