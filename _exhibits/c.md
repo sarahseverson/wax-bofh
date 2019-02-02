@@ -1,6 +1,6 @@
 ---
 layout: wax/exhibit
-title: 'Reading Women: Inline Image References'
+title: 'Example of simple inline Image References'
 author:
 publish_date: 2019-01-31
 permalink: /exhibits/c/
