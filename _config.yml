@@ -96,8 +96,10 @@ menu:
   - label: 'About'
     link: '/about/'
     sub:
-      - label: 'About'
+      - label: 'About the collection'
         link: '/collection/'
+      - label: 'About the website'
+        link: '/about/'
       - label: 'Credits'
         link: '/credits/'
   - label: 'Exhibits'
@@ -121,7 +123,7 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://github.com/minicomp/wax'
+      link: 'https://sarahseverson.github.io/wax-bofh/'
     - label: 'Credits'
       link: '/credits'
     - label: 'Contact about Wax'
@@ -132,6 +134,7 @@ footer:
       link: 'http://digital.library.mcgill.ca/horae'
   logos:
     - img: '/assets/mcgill-martlet.png'
+      link: 'https://www.mcgill.ca/library/'
     - img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2r40VYrf2Q5jkJiPGjPkl7xZoHJliwgVtHCLVXmAsRKw0ZudD'
       link: 'https://library.columbia.edu'
 
