@@ -131,7 +131,7 @@ footer:
     - label: 'Original digital collection'
       link: 'http://digital.library.mcgill.ca/horae'
   logos:
-     - img: '/assets/logo.png'
+    - img: '/assets/logo.png'
       link: 'http://marii.info/'
     - img: '/assets/mcgill-martlet.png'
       link: 'https://www.mcgill.ca/library/'
