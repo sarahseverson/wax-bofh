@@ -4,7 +4,7 @@ title: Search the Collection
 permalink: /search/
 banner:
   collection: bofh
-  pid: ms102
+  pid: ms196
   y: 30%
 ---
 
