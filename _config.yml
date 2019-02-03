@@ -18,8 +18,8 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'McGill Library Collection of Books of Hours'
-description:      'McGill Library Collection of Books of Hours'
+title:            'Horae: Collection of Books of Hours'
+description:      'McGill Library Rare Books and Special Collections'
 url:              'https://sarahseverson.github.io/'
 baseurl:          '/wax-bofh'
 copyright:        ''
@@ -123,16 +123,16 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://sarahseverson.github.io/wax-bofh/'
+      link: 'https://github.com/sarahseverson/wax-bofh'
     - label: 'Credits'
       link: '/credits'
-    - label: 'Contact about Wax'
-      link: 'https://gitter.im/minicomp/wax/'
     - label: 'Contact about the collection'
       link: 'https://www.mcgill.ca/library/branches/rarebooks'
     - label: 'Original digital collection'
       link: 'http://digital.library.mcgill.ca/horae'
   logos:
+     - img: '/assets/logo.png'
+      link: 'http://marii.info/'
     - img: '/assets/mcgill-martlet.png'
       link: 'https://www.mcgill.ca/library/'
     - img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2r40VYrf2Q5jkJiPGjPkl7xZoHJliwgVtHCLVXmAsRKw0ZudD'
