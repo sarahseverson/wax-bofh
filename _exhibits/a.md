@@ -1,12 +1,11 @@
 ---
 layout: wax/exhibit
 title: 'Comparing Local and Remote IIIF Manifests in Mirador'
-author:
+author: Sarah Severson
 publish_date: 2019-01-31
 permalink: /exhibits/a/
 ---
-
-This is an example exhibit that shows how you can compare an image from your digital collection with one from another location. Because Wax uses IIIF, exhibits can even leverage the included viewer [Mirador](http://projectmirador.org) to compare collection items in the site with items _housed at other institutions_.
+This is an example exhibit that shows how you can compare an image from your digital collection with one from another location. Because Wax uses IIIF, exhibits can even leverage the included viewer [Mirador](http://projectmirador.org) to compare collection items in the site with items _housed at other institutions_ that publish their images using IIIF.
 
 Below on the left is an item from this site's collection, MS 105, and on the right is an item from the Walters Art Museum, _[Book of Hours](https://www.wdl.org/en/item/19223/)_, hosted as a IIIF manifest by the World Digital Library.
 
