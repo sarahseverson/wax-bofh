@@ -11,8 +11,7 @@ Below on the left is an item from this site's collection, MS 103, and on the rig
 
 {% assign m1='/img/derivatives/iiif/ms103/manifest.json' %}
 {% assign m2='https://www.wdl.org/en/item/19223/iiif/manifest.json' %}
-
+{% include wax/mirador_compare.html m1=m1 m2=m2 %}
 Here is a comparison between MS 103 and MS 105. 
 {% assign m1='/img/derivatives/iiif/ms103/manifest.json' %} {% assign m2='/img/derivatives/iiif/ms105/manifest.json' %}
-
 {% include wax/mirador_compare.html m1=m1 m2=m2 %}
