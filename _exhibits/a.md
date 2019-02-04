@@ -10,15 +10,7 @@ This is an example exhibit that shows how you can compare an image from your dig
 
 Below, an item from this site's collection, MS 105, is compared with one from the Walters Art Museum, _[Book of Hours](https://www.wdl.org/en/item/19223/)_, hosted as a IIIF manifest by the World Digital Library.
 
-{% assign m1='/img/derivatives/iiif/ms105/manifest.json' %}
+{% assign m1=/img/derivatives/iiif/ms105/manifest.json' %}
 {% assign m2='https://www.wdl.org/en/item/19223/iiif/manifest.json' %}
 
 {% include wax/mirador_compare.html m1=m1 m2=m2 %}
-
-We could also use the viewer to compare two items from this collection. 
-
-{% assign m1='/img/derivatives/iiif/ms105/manifest.json' %}
-{% assign m2='/img/derivatives/iiif/ms107/manifest.json' %}
-
-{% include wax/mirador_compare.html m1=m1 m2=m2 %}
-
